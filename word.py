@@ -337,16 +337,123 @@
  
  #write 10 cities first reverse this and then first and ast letter is capital (if it is mistaken capital in between letters so it will automatically small)
 
-Cities =["Lahore", "Karachi", "Islamabad", "Faisalabad", "Peshawar", 
-        "Quetta", "Multan", "Rawalpindi", "Sialkot", "Hyderabad"]
-b=[]
-for x in Cities:
-    b.insert(0,x)
-print(b)    
+#Cities =["Lahore", "Karachi", "Islamabad", "Faisalabad", "Peshawar", 
+     #   "Quetta", "Multan", "Rawalpindi", "Sialkot", "Hyderabad"]
+#b=[]
+#for x in Cities:
+ #   b.insert(0,x)
+#print(b)    
 
-c=[]
-for x in Cities:
-    p=x[0:1].upper()+x[1:-1].lower()+x[-1:].upper()
-    c.append(p)
-    print(p)
-print(c)    
+#c=[]
+#for x in Cities:
+   # p=x[0:1].upper()+x[1:-1].lower()+x[-1:].upper()
+   # c.append(p)
+   # print(p)
+#print(c)
+
+# 17 for loop while loop
+
+#ls= ["Karachi", "Jaranwala","Fiaslabad"]
+
+#for x in range(len(ls)):
+   # print(ls[x], x+1)
+
+#i=0
+#while i < len(ls):
+   # print(ls[i])
+   # i=i+1
+
+    # 18 range
+
+#for x in range(1,10):
+      #  print(x)
+
+#for x in range(1,10,2):
+ #print(x)
+
+#for x in range(0,21,2):
+ # print(x)
+
+# 19 list comprehension
+
+#ls=[x for x in range(2,10,2)]
+#print(ls)
+
+#ls=["Karachi", "Islamabad", "Multan", "kivi","test"]
+#ls2=[x for x in ls if "a" in x]
+
+#for x in ls:
+    #if "a" in x:
+       # ls2.append(x)
+
+#print(ls2)        
+
+
+#ls=["Karachi", "Islamabad", "Multan", "kivi","test"]
+#ls2=[x for x in ls if "i" in x]
+
+#for x in ls:
+    #if "a" in x:
+       # ls2.append(x)
+
+#print(ls2)
+
+#ls=["Karachi", "Islamabad", "Multan", "kivi","test"]
+#[print(x) for x in ls if "i" in x]
+
+#for x in ls:
+    #if "a" in x:
+       # ls2.append(x)
+
+#print(ls2)
+
+
+#ls=["Karachi", "Islamabad", "Multan", "kivi","test"]
+#ls2= [x for x in ls if x!="Karachi"]
+#print(ls2)
+
+#ls=["karachi", "islamabad", "multan", "kivi","test"]
+#ls2= [x[0].upper()+x[1:] for x in ls ]
+#print(ls2)
+
+#ls=["karachi", "islamabad", "multan", "kivi","test"]
+#ls2= [x.capitalize() for x in ls]
+#print(ls2)
+
+
+#ls=["karachi", "islamabad", "multan", "kivi","test"]
+#ls2=[x[0].upper()+x[1:-1].lower()+x[-1:].upper() for x in ls]
+#print(ls2)
+
+#ls=["2*1=2","2*2=4","2*3=6","2*4=8","2*5=10","2*6=12","2*7=14","2*8=16","2*9=18","2*10=20"]
+#[print(x) for x in ls if "2"in x]
+
+#ls=[]
+
+#ls.append(input("Enter number: "))
+#ls.append(input("Enter number: "))
+#print(ls)
+
+
+
+# 20 tuples
+
+#tup=("hello","world")  # tup("hello",) then we show it tuple
+
+#print(type(tup))
+#print(tup[1])
+#print(tup[0:-1])
+
+#tup=("hello",)
+
+#del tup
+
+#print(tup)
+
+#tp=tuple(("hello"))
+
+#print(type(tp))
+
+#tp=tuple(("hello"))
+#ls= list((tp))
+#print(ls)                   MIT Question 1: What is deep copy and shell copy
