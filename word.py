@@ -450,10 +450,81 @@
 
 #print(tup)
 
-#tp=tuple(("hello"))
+#tp=tuple(("hello"),)
 
 #print(type(tp))
 
-#tp=tuple(("hello"))
+#tp=tuple(("hello"),)
 #ls= list((tp))
 #print(ls)                   MIT Question 1: What is deep copy and shell copy
+
+#tp=tuple(("hello"),)
+#ls= list((tp))
+#ls.append("guru99")
+#print(ls)
+
+#tup1=("tup 1",)
+#tup2=("tup 2",)
+#tup3= tup1 + tup2
+#print(tup3)
+
+#tup=("yellow","orange","blue","green","violet",)
+#print(tup,)
+
+#tup=("pythons",)
+#print(type(tup))
+
+#tup2=("apple", "banana", "cherry")
+#tup3=list((tup2))
+#print(type(tup3), tup3)
+
+#tup= ("semester","annual","master")
+#(tup1,tup2,tup3)=tup
+
+#print(tup1)
+
+#tup= ("semester","annual","master","mphil")
+#(tup1,tup2,*tup3)=tup
+#print(tup3)
+
+# 21 Sets
+
+#st={"hello","world"}
+#st=set(("hello","world","!"))
+
+#print(type(st))
+#print(st)
+
+#st=set(("hello","world","!"))
+#st.add("philosphere")
+#st.add("menus")
+
+#print(st)
+
+#st=set(("hello","world","!"))
+#st2=set(("Philosphere","hello menu"))
+#st.update(st2)
+#print(st)
+
+#st=set(("hello","world","!"))
+#st2=set(("Philosphere","hello menu"))
+#st.update(st2)
+#st.remove(("world"))
+#print(st)
+
+st1={'hello','world','!'}
+st2={'menu','food','!'}
+#st3=st1.union(st2)
+#st3=st1.intersection(st2)
+#st3=st1 & st2
+#st3=st1.difference(st2)
+st3=st1-st2
+print(st3)
+
+
+
+
+
+
+
+
