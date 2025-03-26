@@ -512,14 +512,73 @@
 #st.remove(("world"))
 #print(st)
 
-st1={'hello','world','!'}
-st2={'menu','food','!'}
+#st1={'hello','world','!'}
+#st2={'menu','food','!'}
 #st3=st1.union(st2)
 #st3=st1.intersection(st2)
 #st3=st1 & st2
 #st3=st1.difference(st2)
-st3=st1-st2
-print(st3)
+#st3=st1-st2
+#print(st3)
+
+# 22 dictionaries
+
+#dic = {"name":"amna"}
+#dic =set({"name","amna"})
+#print(type(dic))
+
+# dic =list([{"name","amna"}])
+# print(type(dic),dic)
+
+#dic = {"name":"amna","age":24}
+#print((dic),len(dic))              CRUD= Create Read Update Delete
+
+# dic = {"name":"amna","age":24}     for create
+# #print(dic["name"]) or 
+# print(dic.get("age")) 
+
+# dic = {"name":"amna","age":24}   # for update
+# # dic["name"]="bushra"
+# dic["color"]="green"
+# print(dic)
+
+# dic = {"name":"amna","age":24}
+# # dic.update({"height":5.7,})
+# # dic.pop("name")
+# # dic.popitem()
+# print(dic.keys())  #give keys
+# print(dic.values()) #get values
+# print(dic.items())  #get items with seperate names
+
+# pass by reference /pass by value ----------------------------------------------------------------
+
+# a=10       pass by value ----------------------------------------------------------------
+# b=a
+# a=20
+# print(a,b)
+
+# dic1={"name":"amna","age":"20"}     # pass by reference
+# dic2=dic1
+
+# dic1["name"]="kubran"
+# print(dic1,dic2)
+
+#24  copy dictionary----------------------------------------------------------------
+
+# dic1={"name":"amna","age":"20"}
+# # #dic2=dic1.copy()                             it gives different names
+# # dic2={"name":"amna","age":"20"}
+# dic2= dict(dic1)
+# dic1["name"]="kubran"
+
+# print(dic1,dic2)
+
+
+
+
+
+
+
 
 
 
