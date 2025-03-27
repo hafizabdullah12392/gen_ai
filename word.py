@@ -573,6 +573,72 @@
 
 # print(dic1,dic2)
 
+# 25 function----------------------------------------------------------------
+
+#kivi android apps
+
+# def s():
+#     print("Hello world")
+
+# s()   
+
+# def func(name,age):
+#     print( "hello world" + name + str(age ) )
+    
+# func("akash", 25)    
+
+# def func(name="Ali",age=24):
+#     print( "hello world" + name + str(age ) )
+    
+# func("akash", 25)
+# func()
+
+# def func(name,age,scale):
+#     print(name+str(age)+str(scale))
+# func("akash", 25, 16)    
+
+# def func(name,*age):
+#     print(name+ " "+ str(age[1]))
+# func("akash", 25, 16)
+
+# def func(**krgs):
+#     print(krgs)
+
+# func(name="akash", age= 34)    
+
+# def func(**krgs):
+#     print(krgs["name"]+" "+ str(krgs["age"]))
+
+# func(name="akash", age= 34)
+
+# def fun():
+#     pass
+# fun()
+# 26 exception handling----------------------------------------------------------------
+
+# x=23
+# try:
+#     print(x)
+# except:
+#     print("koi answer nahi") 
+# finally:
+#     print("This is always executed")   
+
+#27 anonymous function
+
+# x= lambda a: a*2
+
+# print(x(5))
+
+# x= lambda a,b: a**b
+
+# print(x(5,2))
+
+# x= lambda a,b,c: a*b/c
+
+# print(int(x(5,2,2)))
+
+
 
 
 
