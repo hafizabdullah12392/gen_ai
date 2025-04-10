@@ -636,13 +636,98 @@
 
 # x= lambda a,b,c: a*b/c
 
-# print(int(x(5,2,2)))
+# print(int(x(5,2,2))
 
 
+# def sum():
+#     print("Hello World")    
+# sum()
+    
+# def sum():
+#     print(("42"))
+# sum()    
+
+# def num():
+#     a=10
+#     b=90
+#     print(a+b)
+# num()
+
+# def sum(c,d):         # parameters
+#     print(c+d)
+# sum(10,99)    # arguments
+
+# def sum(e=20,f=5):
+#     print(e+f)
+# sum(100,100)    
+
+# def sum(g,h):
+#     print("hello world {} : {}".format(g,h))
+# sum(10,20)    
+
+# def sum(g,*h):
+#     print(f"hello world {g} : {h[0]} : {h[1]}")
+# sum(10,20,40)       
+     
+# def sum(g,*h):
+#     print(f"Hello world {g} : {h}")
+# sum(10,20,30,40)    
+
+# def sum(i,**j):
+#     print(f"Hello world how are you. {j}")
+# sum(10,nume="Abdullah",age=20)    
+
+# def mul():
+#     a=20
+#     b=5
+#     print(a*b)
+# mul()    
+
+# def name(first_name,last_name):
+#     print("My name is:", first_name , last_name)
+# name("Abdullah","Nadeem")    
+
+# def num():
+#     a=2
+#     a=a*a
+#     print("The square of 2 is:",a)
+# num()    
+
+# def ap():
+#     a=23
+#     if a%2==0:
+#         print("The number is even")
+#     else:
+#         print("The number is odd")
+# ap()        
+
+# def h(width,height):
+#     area=width*height
+#     print("The area of rectangle is",area)
+# h(5,10)    
+
+# def greet(name="Guest"):
+#     print("Hello" + "" + name + "" + "Congrats!") 
+# greet("Abdullah")    
+
+# def num(*numbers):
+#     print("The total sum is:",sum(numbers))
+# print(10,20,30)    
+
+# def num(*numbers):
+#     print("the maximum value among is:",min(numbers))
+# num(10,30,50,70)    
 
 
+# def person(a, **b):
+#     print(f"His name is {a}")
+#     print(f"His age is {b['age']}")
+#     print(f"He lives in {b['city']}")
 
+# person("Abdullah", age=20, city="Lahore")
+  
 
+#28 OOPs in Python
 
 
 
