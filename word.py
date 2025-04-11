@@ -727,14 +727,518 @@
 # person("Abdullah", age=20, city="Lahore")
   
 
-#28 OOPs in Python
+#28 OOPs in Python--------------------  class and objects with using of set and get
+
+# class Employee:
+#     #pass
+#     def setEmp(self,name,age):
+#         self.name= name
+#         self.age=  age
+#     def getEmp(self):
+#         print(f"{self.name}:{self.age}")    
+
+# ab=Employee()
+# ab.setEmp("Abdullah",23)
+# ab.getEmp()
+
+
+# class Person:
+#     def setper(self,location,city):
+#         self.location=location
+#         self.city=city
+#     def getper(self):
+#         print(f"his live location is {self.location} and city is {self.city}")
+
+# ab=Person()
+# ab.setper("Jaranwala","Faislabad")
+# ab.getper()
+
+# class me:
+#     def setme(self,name,age):
+#         print(f"my name is {name} and age is {age}")
+# ab=me()
+# ab.setme("Abdullah",20)
+
+
+# class Employee:
+#     #pass
+#     def setEmp(self):
+#         self.name= "Abdullah"
+#         self.age=  20
+#     def getEmp(self):
+#         print(f"{self.name}:{self.age}")    
+
+# ab=Employee()
+# ab.setEmp()
+# ab.getEmp()
+
+# #now using constructor method
+
+# class Employee:
+#     #pass
+#     def __init__(self):
+#         self.name= "Abdullah"
+#         self.age=  20
+#     def getEmp(self):
+#         print(f"{self.name}:{self.age}")    
+
+# ab=Employee()
+# ab.getEmp()
+
+# # class Employee:
+# #     #pass
+# #     def __init__(self):
+# #         self.name= input("Enter name:")
+# #         self.age=  int(input("Enter age: "))
+# #     def getEmp(self):
+# #         print(f"{self.name}:{self.age}")    
+
+# # ab=Employee()
+# # ab.getEmp()
+
+# # polymorphism using
+
+# class Car:
+#     def __init__(self,name):
+#         self.name=name
+#     def func(self):
+#         print(f"hello sky man {self.name}")    
+# class Bus:
+#     def __init__(self,name):
+#         self.name=name
+#     def func(self):
+#         print(f"hello drown man {self.name}")       
+# ab=Car("Cultus")
+# ac= Bus("Speedo")
+
+# ab.func()
+# ac.func()
+
+# class Car:
+#     def __init__(self):
+#         self.name="Cultus"
+#     def func(self):
+#         print(f"hello sky man {self.name}")    
+# class Bus:
+#     def __init__(self):
+#         self.name="Speedo"
+#     def func(self):
+#         print(f"hello drown man {self.name}")       
+# ab=Car()
+# ac= Bus()
+
+# ab.func()
+# ac.func()
+
+#by using inheritence
+# class Animal:
+#     def __init__(self,name):
+#         self.name=name
+#     def sound(self):
+#         print(f"Your {self.name} voice is meow")    
+# class Cat(Animal):
+#     def __init__(self,name):
+#         self.name=name
+#     def sound (self):
+#         print(f"Hello {self.name} your voice is waoh")    
+
+# class Dog(Animal):
+#     def __init__(self,name):
+#         self.name=name
+
+#     def sound(self):
+#         print(f"hello {self.name} your voice is bark")
+
+# ab= Cat("cat")
+# ac= Dog("dog") 
+# ad= Animal("Elephant")   
+
+# ab.sound()
+# ac.sound()
+# ad.sound()
+
+# class Sum:
+     
+#     def setSum(self,a,b):
+#          self.a= a
+#          self.b= b
+         
+#     def getSum(self):
+#          sum=self.a+self.b
+#          print(f"The sum is : {sum}")    
+
+# ab=Sum()
+# ab.setSum(15,20)
+# ab.getSum()
+
+# class Sum:
+     
+#      def setSum(self):
+#           self.a= int(input("Enter a Number "))
+#           self.b= int(input("Enter a Number "))
+         
+#      def getSum(self):
+          
+#           print(f"The sum is : {self.a+self.b}")    
+
+# ab=Sum()
+# ab.setSum()
+# ab.getSum()
+
+# class Employee:
+#     def __init__(self):
+#         self.name="Abdullah"
+#         self.age=str((20))
+#         self.name1="Ali"
+#         self.age1=str((24))
+#         self.name2="Ahmad"
+#         self.age2=str((25))
+#         self.name3="Raza"
+#         self.age3=str((26))
+#         self.name4="Zohaib"
+#         self.age4=str((27))
+#     def getEmp(self):
+#         print(f"my name is {self.name} and age is {self.age}")
+#         print(f"my name is {self.name1} and age is {self.age1}")
+#         print(f"my name is {self.name2} and age is {self.age2}")
+#         print(f"my name is {self.name3} and age is {self.age3}")
+#         print(f"my name is {self.name4} and age is {self.age4}")
+# ab=Employee()
+# ab.getEmp()    
+
+# class Employee:
+#     def setEmp(self,name,age):
+#         self.name=name
+#         self.age=str((age))
+#     def getEmp(self):
+#         print(f"my name is {self.name} and age is {self.age}")
+        
+# ab=Employee()
+# ab.setEmp("Abdullah",20)
+# ab.getEmp()
+# bc=Employee()
+# bc.setEmp("Ali",24)
+# bc.getEmp()
+# cd=Employee()
+# cd.setEmp("Ahmad",26)
+# cd.getEmp()
+# ef=Employee()
+# ef.setEmp("Raza",25)
+# ef.getEmp()
+# gh=Employee()
+# gh.setEmp("Riaz",30)
+# gh.getEmp()
+
+# class Num:
+#     def __init__(self, *Number):  
+#         self.number = Number      
+
+#     def getNum(self):
+#         print(f"The sum is: {self.number[0]+self.number[1]}")
+
+
+# ab = Num(23, 24)
+# ab.getNum()
+
+# by using **kwargs display name age and marks with above method
+
+# class Person:
+#     def __init__(self, **Employee):  
+#         self.Employee = Employee      
+
+#     def getPer(self):
+#         print(f"The name is {self.Employee["name"]} age is {self.Employee["age"]} and marks is {self.Employee["marks"]}")
+
+
+# ab = Person(name="Abdullah",age=20,marks=90)
+# ab.getPer()
+
+# class Person:
+#     def __init__(self, **Employee):  
+#         self.Employee = Employee      
+
+#     def getPer(self):
+#         print(f"The name is {self.Employee["name"]} age is {self.Employee["age"]} and marks is {self.Employee["marks"]}")
+        
+
+#         if self.Employee["marks"]>=90:
+#             print("You get a Grade")
+#         if self.Employee["marks"]>=80:
+#             print("You got B Grade")
+#         if self.Employee["marks"]>=70:
+#             print("You got C Grade")
+#         if self.Employee["marks"]<=70:
+#             print("You are failed")    
+
+# ab = Person(name="Abdullah",age=20,marks=78)
+# ab.getPer()
+
+# class Student:
+#     def setStudent(self,name,rollnumber):
+#         self.name=name
+#         self.rollnumber=str(rollnumber)
+#     def getStudent(self):
+#         print(f"The Student name is {self.name} and roll number is {self.rollnumber}")
+# ab=Student()
+# ab.setStudent("Abdullah",21) 
+# ab.getStudent() 
+
+# class Book:
+#     def setBook(self,title,author,price):
+#         self.title=title
+#         self.author=author
+#         self.price=price
+#     def getBook(self):
+#         print(f"Book name is {self.title}, author is {self.author}, price is {self.price}")
+
+# ab=Book()
+# ab.setBook("Rich Dad and Poor Dad", "Williams",2000)
+# ab.getBook()
+
+# class Laptop():
+#     def __init__(self,):
+#         self.brand="Dell"
+#         self.model="I5"
+#         self.price= 50,000 
+#     def getLap(self):
+#         print(f"The brand is {self.brand}, the model is {self.model}, the price is {self.price}")   
+# ab=Laptop()
+# ab.getLap()    
+
+# class Movie():
+#     def __init__(self):
+#         self.title="Jawan"
+#         self.director="Shahrukh Khan"
+#         self.rating= 3.5
+#     def getMovie(self):
+#         print(f"The movie is {self.title} and director was {self.director}, and ratings : {self.rating}")    
+# ab=Movie()
+# ab.getMovie()        
+
+# class Shape:
+#     def __init__(self,area):
+#         self.area= area
+#     def area(self):
+#         print(f"The area is {self.area}")
 
 
 
+# class Rectangle(Shape):
+#     def __init__(self, length, width):
+#         self.length = length
+#         self.width = width
+
+#     def area(self):
+#         print(f"The area of the rectangle is: {self.length * self.width}")
+
+# class Circle(Shape):
+#     def __init__(self, radius):
+#         self.radius = radius
+
+#     def area(self):
+#         area = 3.14 * self.radius * self.radius
+#         print(f"The area of the circle is: {area}")
+
+
+# rect = Rectangle(5, 4)
+# circ = Circle(3)
+
+
+# rect.area()
+# circ.area()
 
 
 
+# class Vehicle:
+#     def description(self):
+#         print(f"This is Beautiful Vehicle")
+# class Car(Vehicle):
+#     def __init__(self):
+#         self.Model= 2014
+#         self.name= "Cultus"
+#     def description(self):
+#         print(f"The car model is {self.Model} and name is {self.name}")
+# class Bike(Vehicle):
+#     def __init__(self):
+#         self.name="Honda 70"
+#         self.model= 2020
+#     def description(self):
+#         print(f"The bike name is {self.name} and model is {self.model}")
+# ab=Car()
+# bc=Bike()
+# ac=Vehicle()
+# ab.description()
+# bc.description()                       
+# ac.description()               
 
 
+# class Cat:
+#     def __init__(self,name):
+#         self.name=name
+#     def speak(self):
+#         print(f"The name of cat is {self.name}")
+# class Dog:
+#     def __init__(self,name):
+#         self.name=name
+#     def speak(self): 
+#         print(f"The name of Dog is {self.name}") 
+# ab=Cat("Tommy")         
+# bc=Dog("Archana")       
+# ab.speak()
+# bc.speak()      
+
+#simple inheritence
+
+# class Father:
+#     def ft(self):
+#         print("Father Classes")
+# class Child(Father):
+#     pass
+
+# ab=Child()
+# ab.ft()
 
 
+# #multiple inheritence
+
+# class Father:
+#     def ft(self):
+#         print("Father Classes")
+# class Mother:
+#     def mt(self):
+#         print("Mother classes")
+# class Child(Mother,Father):
+#     pass
+
+# ab=Child()
+# ab.ft()
+# ab.mt()
+
+# class Model:
+#     def ft(self):
+#         print(2016)
+# class Name:
+#     def mt(self):
+#         print("Cultus")   
+# class Car(Model,Name):
+#     pass
+# ab=Car()
+# ab.ft()
+# ab.mt()        
+
+# multilevel inheritence
+
+# class Grandpa:
+#     def gp(self):
+#         print("Fazal Elahi")
+# class Parents(Grandpa):
+#     def prnt(self):
+#         print("Parents")
+# class Child(Parents):
+#     def chld(self):
+#         print("Child")
+# class Grandchild(Child):        
+#     pass                
+
+# ab=Grandchild()
+# ab.prnt()
+# ab.gp()
+# ab.chld()
+
+# # heirarical inheritance
+
+# class Parent:
+#     def prnt(self):
+#         print("This is parent class")
+# class Child1(Parent):
+#     pass
+# class Child2(Parent):
+#     pass 
+
+# ab=Child1()
+# ab.prnt()
+
+# by using super with adding in parent child after
+
+
+# class Parent:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#     def smt(self,birthday):
+#         print(f"Hi {self.name} your age is {self.age} and your birthday is {birthday}")
+# class Child(Parent):
+#     def __init__(self,name,age,education):
+#         self.education=education
+#         super().__init__(name,age)
+#     def tmt(self):
+#         print(f"Your education is {self.education}")    
+        
+# ab=Child("Abdullah",20,23)
+# ab.smt("5th may")        
+# ab.tmt()                    
+
+# class Car:
+#     def st(self):
+#         print("This is car")
+# class Model(Car):
+#     pass
+# ab= Car()
+# ab.st()        
+
+
+# class Model:
+#     def st(self):
+#         print(2018)
+# class Name:
+#     def mt(self):
+#         print("Prado")
+# class Car(Model,Name):
+#     pass
+
+# ab=Car()
+# ab.mt()
+# ab.st()
+
+# class Model:
+#     def st(self):
+#         print("2019")
+# class Name(Model):
+#     def mt(self):
+#         print("Cultus")
+# class Car(Name):
+#     def gt(self):
+#         print("Black")
+# class Foundation(Car):
+#         pass   
+# ab=Foundation()
+# ab.gt()
+# ab.mt()
+# ab.st()          
+
+# class Car:
+#     def tn(self):
+#         print("The car color is black")
+# class Model(Car):
+#     pass
+# class Model1(Car):
+#     pass
+
+# ab=Model()
+# ab.tn()
+
+# class Car:
+#     def __init__(self,name,model):
+#         self.name=name
+#         self.model=model
+#     def tm(self,color):
+#         print(f"The name of car is {self.name} and model is {self.model} and color is {color}") 
+# class Requirement(Car):
+#     def __init__(self,name,model,develpement):
+#         self.development=develpement
+#         super().__init__(name,model)
+#     def tmt(self):
+#         print(f"The development in {self.development}")
+# ab= Requirement("Cultus",2018,"Huandei")
+# ab.tm("Black")
+# ab.tmt()                     
